@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+
+  background-color: #0a0a0a;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+
+  background-size: 40px 40px;
+}
+
+/* NAVBAR FULL WIDTH */
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.3s ease;
+
+  background: transparent;
+}
+
+/* AFTER SCROLL 🔥 */
+.nav.scrolled {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* CENTER CONTENT */
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* 🔥 THIS FIXES ALIGNMENT */
+}
+
+/* LOGO */
+.logo {
+  color: #a855f7;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* LINKS */
+.nav-links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #a855f7;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0 280px;
+}
+
+/* LEFT SIDE */
+.hero-left {
+  width: 50%;
+}
+
+.hero-left h1 {
+  font-size: 80px;
+  line-height: 1.1;
+}
+
+.hero-left h2 {
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.hero-left p {
+  margin-top: 20px;
+  max-width: 500px;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+/* RIGHT SIDE */
+.hero-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-right img {
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: 6px solid #a855f7;
+
+  box-shadow:
+    0 0 20px #a855f7,
+    0 0 60px rgba(168, 85, 247, 0.6),
+    0 0 100px rgba(168, 85, 247, 0.4);
+}
+
+.hero-left span {
+  color: #a855f7;
+}
+
+.highlight {
+  color: #a855f7;
+  border-right: 2px solid #a855f7;
+  padding-right: 5px;
+}
+
+/* Button */
+.btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #a855f7;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Right Image */
+.hero-right img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid #a855f7;
+}

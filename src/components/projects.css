@@ -1,0 +1,100 @@
+.projects-section {
+  padding: 80px 20px;
+  background: linear-gradient(180deg, #020024, #090979, #000);
+  color: white;
+  text-align: center;
+}
+
+.projects-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.projects-subtitle {
+  color: #aaa;
+  margin-bottom: 50px;
+}
+
+/* Container */
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Card */
+.project-card {
+  background: #0a0f2c;
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 0 20px rgba(138, 43, 226, 0.3);
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 30px rgba(138, 43, 226, 0.6);
+}
+
+/* Image */
+.project-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Title */
+.project-card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/* Description */
+.project-card p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+/* Skills tags */
+.project-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.project-skills span {
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 15px;
+  background: #6a0dad;
+  color: white;
+}
+
+/* Buttons (optional) */
+.project-links {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.project-links a {
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  border: 1px solid #6a0dad;
+  color: white;
+  transition: 0.3s;
+}
+
+.project-links a:hover {
+  background: #6a0dad;
+}

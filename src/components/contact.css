@@ -1,0 +1,114 @@
+.contact-section {
+  padding: 80px 20px;
+  background: linear-gradient(180deg, #020024, #090979, #000);
+  color: white;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.contact-subtitle {
+  color: #aaa;
+  margin: 10px 0 40px;
+}
+
+/* Card */
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-card {
+  background: #0a0f2c;
+  padding: 25px;
+  width: 350px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 0 20px rgba(138, 43, 226, 0.4);
+}
+
+/* Form */
+.contact-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-card input,
+.contact-card textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: transparent;
+  color: white;
+  outline: none;
+}
+
+.contact-card input::placeholder,
+.contact-card textarea::placeholder {
+  color: #aaa;
+}
+
+/* Button */
+.contact-card button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #8a2be2, #ff4da6);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.contact-card button:hover {
+  opacity: 0.9;
+}
+
+/* Footer */
+.contact-footer {
+  margin-top: 60px;
+}
+
+.contact-footer h4 {
+  color: #a855f7;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+/* Social */
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+.contact-footer p {
+  font-size: 12px;
+  color: #777;
+}

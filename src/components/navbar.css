@@ -1,0 +1,12 @@
+.nav-links img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-links img:hover {
+  transform: scale(1.2);
+}
