@@ -1,6 +1,6 @@
 import "./contact.css";
-import github from "./github.png";
-import linkedin from "./linkedin.png";
+import github from "../public/images/github.png";
+import linkedin from "../public/images/linkedin.png";
 
 export default function Contact() {
   return (

@@ -1,8 +1,8 @@
 import { Link } from "react-scroll";
 import { useEffect, useState } from "react";
 import "./navbar.css"
-import github from "./social github.png";
-import linkedin from "./linkedin.png";
+import github from "../public/images/social github.png";
+import linkedin from "../public/images/linkedin.png";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
