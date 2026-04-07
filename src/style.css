@@ -123,27 +123,36 @@ body {
 
 @media (max-width: 768px) {
   .hero {
-    flex-direction: column;
-    /* stack */
+    flex-direction: column;   /* stack */
     text-align: center;
-    padding: 40px 20px;
+    padding: 100px 20px 40px; /* add top space for navbar */
+    height: auto;
   }
 
-  .hero-content {
-    max-width: 100%;
+  .hero-left {
+    width: 100%;
   }
 
-  .hero-image img {
-    width: 220px;
-    margin: 20px 0;
+  .hero-right {
+    width: 100%;
+    margin-top: 20px;
   }
 
-  .hero h1 {
-    font-size: 28px;
+  .hero-left h1 {
+    font-size: 32px;
   }
 
-  .hero p {
+  .hero-left h2 {
+    font-size: 20px;
+  }
+
+  .hero-left p {
     font-size: 14px;
+  }
+
+  .hero-right img {
+    width: 200px;
+    height: 200px;
   }
 }
 
