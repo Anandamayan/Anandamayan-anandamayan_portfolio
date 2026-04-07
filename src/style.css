@@ -121,6 +121,32 @@ body {
   color: #a855f7;
 }
 
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    /* stack */
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-image img {
+    width: 220px;
+    margin: 20px 0;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+}
+
 .highlight {
   color: #a855f7;
   border-right: 2px solid #a855f7;
