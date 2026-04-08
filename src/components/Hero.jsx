@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import './hero.css'
 
 import myImage from "../assets/images/MyPhoto.jpeg";
 
@@ -44,7 +45,7 @@ export default function Hero() {
           technologies.
         </p>
 
-        <a href="/src/public/ANANDA_MAYAN _SUNDARESAN Resume.pdf" download>
+        <a href="/ANANDA_MAYAN_SUNDARESAN_Resume.pdf" download>
           <button className="btn">Download CV</button>
         </a>
       </div>
