@@ -124,8 +124,9 @@ body {
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
-    text-align: center;
-    padding: 100px 20px 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 20px 40px;
     height: auto;
   }
 
@@ -134,36 +135,18 @@ body {
     width: 100%;
   }
 
-  .hero-left h1 {
-    font-size: 32px;
-  }
-
-  .hero-left h2 {
-    font-size: 18px;
-  }
-
-  .hero-left p {
-    font-size: 14px;
+  .hero-left {
+    order: 1;
   }
 
   .hero-right {
+    order: 2;
     margin-top: 20px;
   }
 
   .hero-right img {
-    width: 200px;
-    height: 200px;
-  }
-
-  /* Navbar fix */
-  .nav-container {
-    padding: 15px 20px;
-  }
-
-  .nav-links {
-    gap: 12px;
-    font-size: 12px;
-    flex-wrap: wrap;
+    width: 180px;
+    height: 180px;
   }
 }
 
