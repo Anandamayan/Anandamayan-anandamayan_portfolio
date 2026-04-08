@@ -32,7 +32,7 @@ export default function Contact() {
           <a href="#skills">Skills</a>
           <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>
-          <a href="#education">Education</a>
+          {/* <a href="#education">Education</a> */}
         </div>
 
         <div className="social-icons">
